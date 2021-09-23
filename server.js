@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: true }))
 
 const Document = require('./models/Document')
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://m001-student:candra561@sandbox.gg8xn.mongodb.net/candrabin", {
+mongoose.connect("mongodb://localhost/candrabin", {
 useUnifiedTopology: true,    
 useNewUrlParser: true})
 
